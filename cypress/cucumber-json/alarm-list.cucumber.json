@@ -1,0 +1,308 @@
+[
+  {
+    "description": "    login & widget test",
+    "keyword": "Feature",
+    "name": "Alarm list",
+    "line": 1,
+    "id": "alarm-list",
+    "tags": [],
+    "uri": "alarm-list.feature",
+    "elements": [
+      {
+        "id": "alarm-list;login-&-see-widget",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login & see widget",
+        "tags": [
+          {
+            "name": "@Widget",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 10102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Check widget",
+            "result": {
+              "status": "passed",
+              "duration": 1316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "check for error & warning",
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarm-list;login-&-open-alarm-list",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Login & open alarm list",
+        "tags": [
+          {
+            "name": "@AlarmList",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 6074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Click on Services & Alerts",
+            "result": {
+              "status": "passed",
+              "duration": 1428000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarm-list;login-&-open-details-of-alert",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Login & open details of alert",
+        "tags": [
+          {
+            "name": "@AlertDetails",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 5653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "Click on Services & Alerts",
+            "result": {
+              "status": "passed",
+              "duration": 1416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Click on details button",
+            "result": {
+              "status": "passed",
+              "duration": 3362000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarm-list;login-&-open-configuration-page",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Login & open configuration page",
+        "tags": [
+          {
+            "name": "@ConfigPage",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 7255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Open configuration",
+            "result": {
+              "status": "passed",
+              "duration": 1204000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarm-list;login-&-sort-by-type-of-alarm",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Login & sort by type of alarm",
+        "tags": [
+          {
+            "name": "@SortDevice",
+            "line": 32
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 4714000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Click on Services & Alerts",
+            "result": {
+              "status": "passed",
+              "duration": 1410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "Sort by device",
+            "result": {
+              "status": "passed",
+              "duration": 1992000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarm-list;login-&-sort-by-alarm-code",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Login & sort by alarm code",
+        "tags": [
+          {
+            "name": "@SortAlarmCode",
+            "line": 38
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 5890000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "Click on Services & Alerts",
+            "result": {
+              "status": "passed",
+              "duration": 1449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Sort by alarm code",
+            "result": {
+              "status": "passed",
+              "duration": 2166000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarm-list;login-&-assert-details",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Login & assert details",
+        "tags": [
+          {
+            "name": "@assertDetails",
+            "line": 44
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 46,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 6431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "Click on Services & Alerts",
+            "result": {
+              "status": "passed",
+              "duration": 1457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "Assert details",
+            "result": {
+              "status": "passed",
+              "duration": 3327000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

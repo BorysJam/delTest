@@ -10,9 +10,19 @@
     "delaval": "npm run test -- --spec \"cypress/integration/delaval/*\""
   },
   "keywords": [],
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^9.7.0"
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }
