@@ -1,0 +1,11 @@
+{
+    "chromeWebSecurity": false,
+    "env":{
+        "email": "an.dev.tester@mailinator.com",
+        "url": "http://dev.login.delaval.cloud/",
+        "login": "jamrbo",
+        "pw": "Delaval&123"
+    }
+}
+
+
