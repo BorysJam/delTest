@@ -5,7 +5,8 @@
         "url": "http://dev.login.delaval.cloud/",
         "login": "jamrbo",
         "pw": "Delaval&123"
-    }
+    },
+    "defaultCommandTimeout": 8000
 }
 
 
