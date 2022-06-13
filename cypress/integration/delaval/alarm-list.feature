@@ -16,6 +16,7 @@ Feature: Alarm list
     Scenario: Login & open details of alert
     Given Open page, login & choose farm
     When Click on Services & Alerts
+    Then Click on inactive
     Then Click on details button
 
     @ConfigPage
@@ -45,6 +46,7 @@ Feature: Alarm list
     Scenario: Login & assert details
     Given Open page, login & choose farm
     When Click on Services & Alerts
+    Then Click on inactive
     Then Assert details 
 
 

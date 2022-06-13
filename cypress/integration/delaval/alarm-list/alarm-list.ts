@@ -26,9 +26,12 @@ When('Click on Services & Alerts', ()=>{
     cy.get('.nav-item .label').contains('Services').click()
     cy.get('.link div').contains('Alerts').click()
 })
-Then('Click on details button',()=>{
-    cy.get('span[role="button"]').contains('Details').first().click()
+Then('Click on inactive',()=>{
+    cy.get('.v-slide-group__content > :nth-child(3)').click()
 })
+Then('Click on details button',()=>{
+     cy.get('span[role="button"]').should('be.visible').contains('Details').first().click()
+ })
 
 //Configpage
 Then('Open configuration', ()=>{

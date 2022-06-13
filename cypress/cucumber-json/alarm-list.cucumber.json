@@ -28,7 +28,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 10102000000
+              "duration": 6128000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "Check widget",
             "result": {
               "status": "passed",
-              "duration": 1316000000
+              "duration": 498000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "check for error & warning",
             "result": {
               "status": "passed",
-              "duration": 74000000
+              "duration": 81000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 6074000000
+              "duration": 5077000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "Click on Services & Alerts",
             "result": {
               "status": "passed",
-              "duration": 1428000000
+              "duration": 1499000000
             }
           }
         ]
@@ -108,7 +108,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 5653000000
+              "duration": 6044000000
             }
           },
           {
@@ -118,17 +118,27 @@
             "name": "Click on Services & Alerts",
             "result": {
               "status": "passed",
-              "duration": 1416000000
+              "duration": 1451000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 19,
+            "name": "Click on inactive",
+            "result": {
+              "status": "passed",
+              "duration": 2098000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
             "name": "Click on details button",
             "result": {
               "status": "passed",
-              "duration": 3362000000
+              "duration": 988000000
             }
           }
         ]
@@ -136,12 +146,12 @@
       {
         "id": "alarm-list;login-&-open-configuration-page",
         "keyword": "Scenario",
-        "line": 22,
+        "line": 23,
         "name": "Login & open configuration page",
         "tags": [
           {
             "name": "@ConfigPage",
-            "line": 21
+            "line": 22
           }
         ],
         "type": "scenario",
@@ -149,21 +159,21 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 23,
+            "line": 24,
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 7255000000
+              "duration": 6657000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 24,
+            "line": 25,
             "name": "Open configuration",
             "result": {
               "status": "passed",
-              "duration": 1204000000
+              "duration": 1212000000
             }
           }
         ]
@@ -171,12 +181,12 @@
       {
         "id": "alarm-list;login-&-sort-by-type-of-alarm",
         "keyword": "Scenario",
-        "line": 33,
+        "line": 34,
         "name": "Login & sort by type of alarm",
         "tags": [
           {
             "name": "@SortDevice",
-            "line": 32
+            "line": 33
           }
         ],
         "type": "scenario",
@@ -184,31 +194,31 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 34,
+            "line": 35,
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 4714000000
+              "duration": 5696000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 35,
+            "line": 36,
             "name": "Click on Services & Alerts",
             "result": {
               "status": "passed",
-              "duration": 1410000000
+              "duration": 1520000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 36,
+            "line": 37,
             "name": "Sort by device",
             "result": {
               "status": "passed",
-              "duration": 1992000000
+              "duration": 1663000000
             }
           }
         ]
@@ -216,12 +226,12 @@
       {
         "id": "alarm-list;login-&-sort-by-alarm-code",
         "keyword": "Scenario",
-        "line": 39,
+        "line": 40,
         "name": "Login & sort by alarm code",
         "tags": [
           {
             "name": "@SortAlarmCode",
-            "line": 38
+            "line": 39
           }
         ],
         "type": "scenario",
@@ -229,31 +239,31 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 40,
+            "line": 41,
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 5890000000
+              "duration": 6024000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 41,
+            "line": 42,
             "name": "Click on Services & Alerts",
             "result": {
               "status": "passed",
-              "duration": 1449000000
+              "duration": 1472000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 42,
+            "line": 43,
             "name": "Sort by alarm code",
             "result": {
               "status": "passed",
-              "duration": 2166000000
+              "duration": 1673000000
             }
           }
         ]
@@ -261,12 +271,12 @@
       {
         "id": "alarm-list;login-&-assert-details",
         "keyword": "Scenario",
-        "line": 45,
+        "line": 46,
         "name": "Login & assert details",
         "tags": [
           {
             "name": "@assertDetails",
-            "line": 44
+            "line": 45
           }
         ],
         "type": "scenario",
@@ -274,31 +284,41 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 46,
+            "line": 47,
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 6431000000
+              "duration": 5667000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 47,
+            "line": 48,
             "name": "Click on Services & Alerts",
             "result": {
               "status": "passed",
-              "duration": 1457000000
+              "duration": 1425000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 48,
+            "line": 49,
+            "name": "Click on inactive",
+            "result": {
+              "status": "passed",
+              "duration": 1304000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
             "name": "Assert details",
             "result": {
               "status": "passed",
-              "duration": 3327000000
+              "duration": 1100000000
             }
           }
         ]
