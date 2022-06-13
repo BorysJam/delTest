@@ -1,0 +1,88 @@
+[
+  {
+    "description": "    This is the tests for the Alarms Micro Frontend for dev environments.",
+    "keyword": "Feature",
+    "name": "Alarms",
+    "line": 1,
+    "id": "alarms",
+    "tags": [],
+    "uri": "alarm.feature",
+    "elements": [
+      {
+        "id": "alarms;alarms-should-be-sorted-by-device-name-of-alarms",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Alarms should be sorted by Device Name of alarms",
+        "tags": [
+          {
+            "name": "@deviceNameAlarms",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 15427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I wait 3000",
+            "result": {
+              "status": "passed",
+              "duration": 3033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I click \"Go to Service\"",
+            "result": {
+              "status": "passed",
+              "duration": 276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I click \"Device Name\"",
+            "result": {
+              "status": "passed",
+              "duration": 2676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I click \"Inactive\"",
+            "result": {
+              "status": "passed",
+              "duration": 616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I click \"Device Name\"",
+            "result": {
+              "status": "passed",
+              "duration": 725000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
