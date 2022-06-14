@@ -9,76 +9,101 @@
     "uri": "alarm.feature",
     "elements": [
       {
-        "id": "alarms;alarms-should-be-sorted-by-device-name-of-alarms",
+        "id": "alarms;user-is-be-able-to-route-alarm-dashboard",
         "keyword": "Scenario",
-        "line": 23,
-        "name": "Alarms should be sorted by Device Name of alarms",
-        "tags": [
-          {
-            "name": "@deviceNameAlarms",
-            "line": 22
-          }
-        ],
+        "line": 80,
+        "name": "User is be able to route alarm dashboard",
+        "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 24,
+            "line": 81,
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 15427000000
+              "duration": 7483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "\"A&N Internal Dev\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "\"Errors\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 569000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "\"Warnings\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "\" Go to Service \" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 25,
+            "line": 86,
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3033000000
+              "duration": 3062000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 26,
+            "line": 87,
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 276000000
+              "duration": 321000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 27,
-            "name": "I click \"Device Name\"",
+            "line": 88,
+            "name": "\"Active\" is visible",
             "result": {
               "status": "passed",
-              "duration": 2676000000
+              "duration": 3491000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 28,
-            "name": "I click \"Inactive\"",
+            "line": 89,
+            "name": "\"Inactive\" is visible",
             "result": {
               "status": "passed",
-              "duration": 616000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 29,
-            "name": "I click \"Device Name\"",
-            "result": {
-              "status": "passed",
-              "duration": 725000000
+              "duration": 292000000
             }
           }
         ]

@@ -32,6 +32,102 @@ Then('I click "Time Stamp"', ()=>{
 })
 
 Then('I click "Device Name"', ()=>{
-    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > .v-data-table-header > tr > [aria-label="Device Name: "]').click()
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > .v-data-table-header > tr > [aria-label="Device Name: "]').should('have.text', 'Device Name').click()
     cy.log('Clicked on Device Name sort')
+})
+
+Then('I click "Device Type"',()=>{
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > .v-data-table-header > tr > [aria-label="Device Type: "]').should('have.text', 'Device Type').click()
+})
+
+Then('I click "Code"',()=>{
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > .v-data-table-header > tr > [aria-label="Code: "]').should('have.text', 'Code').click()
+})
+
+Then('I click "Receiver"',()=>{
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > .v-data-table-header > tr > [aria-label="Receiver(s)"] > span').click()
+})
+
+Then('"Services" is visible',()=>{
+    cy.get(':nth-child(3) > .nav-item').contains('Services').should('be.visible')
+})
+
+Then('"Type" is visible',()=>{
+    cy.get('[aria-label="Type: "] > span').contains('Type').should('be.visible')
+})
+
+Then('"Time Stamp" is visible', ()=>{
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > .v-data-table-header > tr > [aria-label="Time Stamp: "]').should('be.visible')
+})
+
+Then('"Device Name" is visible',()=>{
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > .v-data-table-header > tr > [aria-label="Device Name: "]').should('be.visible')
+})
+Then('"Device Type" is visible',()=>{
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > .v-data-table-header > tr > [aria-label="Device Type: "]').should('be.visible')
+})
+
+Then('"Code" is visible', ()=>{
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > .v-data-table-header > tr > [aria-label="Code: "]').should('be.visible')
+})
+
+Then('"Receiver" is visible',()=>{
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > .v-data-table-header > tr > [aria-label="Receiver(s)"] > span').should('be.visible')
+})
+
+Then('I check details of alarm', ()=>{
+    cy.get(':nth-child(1) > :nth-child(7) > .row > .pointer').click()
+})
+
+Then('"Back" is visible', ()=>{
+    cy.get('.mr-4').contains('Back').should('be.visible')
+})
+
+Then('"Inactivate" is visible',()=>{
+    cy.get('.v-btn__content').contains('Inactivate').should('be.visible')
+})
+
+Then('"Alert Received By" is visible',()=>{
+    cy.get('div[class="pa-0 col col-auto"]').contains('Alert Received By:').siblings('div[class="row no-gutters"]').then(e =>{
+        cy.log(e.text())
+    })
+})
+
+Then('"Error Code" is visible',  ()=>{
+    cy.get('span[class="f6 font-weight-regular text--secondary"]').siblings('p[class="text--primary"]').then((e)=>{
+        cy.log("Error code: " + e.text())
+    })
+})
+
+Then('"A&N Internal Dev" is visible', ()=>{
+    cy.get('div span[class="dl-heading typo-body-l-bold"]').contains('A&N Internal Dev').should('be.visible')
+})
+
+Then('"Errors" is visible', ()=>{
+    cy.get('.error-wrapper .alerts-title').should('have.text', "Errors").log('Errors are visible').next().then((e)=>{
+        cy.log('Number of errors: ' + e.text())
+    })
+})
+
+Then('"Warnings" is visible',()=>{
+    cy.get('.warning-wrapper .alerts-title').should('have.text', "Warnings").log('Warnings are visible').next().then((e)=>{
+        cy.log('Number of Warnings: ' + e.text())
+    })
+})
+
+Then('" Go to Service " is visible', ()=>{
+    cy.get('button[type="submit"]').contains(" Go to Service ").should('be.visible').log('Go to Service is visible')
+})
+
+Then('"Active" is visible', ()=>{
+    cy.get('.v-tab').contains('Active').should('be.visible').log('Active is visible').then((e)=>{
+        const number = e.text().split(" ")
+        cy.log('Amount of Active :' + number[1])
+    })
+})
+Then('"Inactive" is visible', ()=>{
+    cy.get('.v-tab').contains('Inactive').should('be.visible').log('Inactive is visible').then((e)=>{
+        const number = e.text().split(" ")
+        cy.log('Amount of Inactive :' + number[1])
+    })
 })

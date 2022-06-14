@@ -6,7 +6,10 @@
         "login": "jamrbo",
         "pw": "Delaval&123"
     },
-    "defaultCommandTimeout": 8000
+    "defaultCommandTimeout": 10000,
+    "pageLoadTimeout": 10000,
+    "viewportWidth": 1000,
+    "viewportHeight": 660
 }
 
 
