@@ -9,101 +9,71 @@
     "uri": "alarm.feature",
     "elements": [
       {
-        "id": "alarms;user-is-be-able-to-route-alarm-dashboard",
+        "id": "alarms;a&n----user-should-be-able-to-see-all-the-devices-connected-to-the-farm-for-configuring-the-alarms",
         "keyword": "Scenario",
-        "line": 80,
-        "name": "User is be able to route alarm dashboard",
+        "line": 102,
+        "name": "A&N -  User should be able to see all the devices connected to the farm for configuring the alarms",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 81,
+            "line": 103,
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 7483000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 82,
-            "name": "\"A&N Internal Dev\" is visible",
-            "result": {
-              "status": "passed",
-              "duration": 386000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 83,
-            "name": "\"Errors\" is visible",
-            "result": {
-              "status": "passed",
-              "duration": 569000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 84,
-            "name": "\"Warnings\" is visible",
-            "result": {
-              "status": "passed",
-              "duration": 112000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 85,
-            "name": "\" Go to Service \" is visible",
-            "result": {
-              "status": "passed",
-              "duration": 107000000
+              "duration": 7705000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 86,
+            "line": 104,
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3062000000
+              "duration": 3051000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 87,
+            "line": 105,
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 321000000
+              "duration": 288000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 88,
-            "name": "\"Active\" is visible",
+            "line": 106,
+            "name": "I click \"Settings\"",
             "result": {
               "status": "passed",
-              "duration": 3491000000
+              "duration": 6288000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 89,
-            "name": "\"Inactive\" is visible",
+            "line": 107,
+            "name": "\"Alert Configuration\" is visible",
             "result": {
               "status": "passed",
-              "duration": 292000000
+              "duration": 170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 108,
+            "name": "Verify all the devices that are connected to the farm are listed in the Device Schedule",
+            "result": {
+              "status": "passed",
+              "duration": 984000000
             }
           }
         ]

@@ -2,7 +2,7 @@ Feature: Alarms
     This is the tests for the Alarms Micro Frontend for dev environments.
 
     @typeAlarms
-    Scenario Outline: Alarms should be sorted by Type of Alarms
+    Scenario: Alarms should be sorted by Type of Alarms
     Given Open page, login & choose farm
     When I wait 3000
     Then I click "Go to Service"
@@ -11,7 +11,7 @@ Feature: Alarms
     Then I click on Alarm Type
 
     @timeStampAlarms
-    Scenario Outline: Alarms should be sorted by Time Stamp of alarms
+    Scenario: Alarms should be sorted by Time Stamp of alarms
     Given Open page, login & choose farm
     When I wait 3000
     Then I click "Go to Service"
@@ -20,7 +20,7 @@ Feature: Alarms
     Then I click "Time Stamp"
 
     @deviceNameAlarms
-    Scenario Outline: Alarms should be sorted by Device Name of alarms
+    Scenario: Alarms should be sorted by Device Name of alarms
     Given Open page, login & choose farm
     When I wait 3000
     Then I click "Go to Service"
@@ -29,7 +29,7 @@ Feature: Alarms
     Then I click "Device Name"
 
     @deviceTypeAlarms
-    Scenario Outline: Alarms should be sorted by Device Type of alarms
+    Scenario: Alarms should be sorted by Device Type of alarms
     Given Open page, login & choose farm
     When I wait 3000
     Then I click "Go to Service"
@@ -38,7 +38,7 @@ Feature: Alarms
     Then I click "Device Type"
 
     @alarmCode
-    Scenario Outline: Alarms should be sorted by Alarm Code of alarms
+    Scenario: Alarms should be sorted by Alarm Code of alarms
     Given Open page, login & choose farm
     When I wait 3000
     Then I click "Go to Service"
@@ -48,7 +48,7 @@ Feature: Alarms
 
    
     @receiverOfAlarms
-    Scenario Outline: Alarms should be sorted by Receivers of alarms
+    Scenario: Alarms should be sorted by Receivers of alarms
     Given Open page, login & choose farm
     When I wait 3000
     Then I click "Go to Service"
@@ -56,12 +56,14 @@ Feature: Alarms
     Then I click "Inactive"
     Then I click "Receiver"
 
-    Scenario Outline:Alarms is only shown on dashboard for a farm that pays for it
+    @alarmShownDashboard
+    Scenario:Alarms is only shown on dashboard for a farm that pays for it
     Given Open page, login & choose farm
     When I wait 3000
     Then "Services" is visible
     
-    Scenario Outline: Alarm details should be displayed in the Alarm Notification received by the user
+    @alarmDetailsDisplayed
+    Scenario: Alarm details should be displayed in the Alarm Notification received by the user
     Given Open page, login & choose farm
     When I wait 3000
     Then I click "Go to Service"
@@ -77,6 +79,7 @@ Feature: Alarms
     Then "Alert Received By" is visible
     Then "Error Code" is visible
 
+    @userAbleToRoute
     Scenario: User is be able to route alarm dashboard
     Given Open page, login & choose farm
     Then "A&N Internal Dev" is visible
@@ -87,5 +90,24 @@ Feature: Alarms
     Then I click "Go to Service"
     Then "Active" is visible
     Then "Inactive" is visible
-    # Then user verified alarm dashboard and alarm details
+    Then user verified alarm dashboard and alarm details
     
+    @userInactiveState
+    Scenario: User shouldn’t be able to activate an alarm which is in Inactive state
+    Given Open page, login & choose farm
+    When I wait 3000
+    Then I click "Go to Service"
+    Then "Active" is visible
+    Then I click "Inactive"
+    Then I went to inactive details
+    Then Activate isnt visible on inactive details
+    Then I click "Back"  
+
+    @seeAllDevicesConnected
+    Scenario: A&N -  User should be able to see all the devices connected to the farm for configuring the alarms
+    Given Open page, login & choose farm
+    When I wait 3000
+    Then I click "Go to Service"
+    Then I click "Settings"
+    Then "Alert Configuration" is visible
+    Then Verify all the devices that are connected to the farm are listed in the Device Schedule

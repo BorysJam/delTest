@@ -125,9 +125,43 @@ Then('"Active" is visible', ()=>{
         cy.log('Amount of Active :' + number[1])
     })
 })
+
 Then('"Inactive" is visible', ()=>{
     cy.get('.v-tab').contains('Inactive').should('be.visible').log('Inactive is visible').then((e)=>{
         const number = e.text().split(" ")
         cy.log('Amount of Inactive :' + number[1])
+    })
+})
+
+Then('user verified alarm dashboard and alarm details', ()=>{
+    cy.get('.alarm-notification-app').should('be.visible').log('Alarm dashboard vertified')
+    cy.get(':nth-child(1) > :nth-child(7) > .row > .pointer').should('be.visible').log('Alarm details')
+})
+
+Then('I went to inactive details', ()=>{
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > tbody > .table-item-row > :nth-child(7)').contains('Details').should('be.visible').click()
+})
+
+Then('Activate isnt visible on inactive details',()=>{
+    cy.get('div[class="row no-gutters align-center justify-end"] button').should('not.have.text', "Activate")
+})
+
+Then('I click "Back"', ()=>{
+    cy.get('div[class="row no-gutters align-center justify-end"] button').contains('Back').click()
+})
+
+Then('I click "Settings"',()=>{
+    cy.get('a[class="f6 text-decoration-none text--cyan"]').contains('Settings').click()
+})
+
+Then('"Alert Configuration" is visible',()=>{
+    cy.get('div[class="absolute z-1 col col-3"]').contains('Alert Configuration').should('be.visible')
+})
+
+Then('Verify all the devices that are connected to the farm are listed in the Device Schedule', ()=>{
+    cy.get('tr .text-start div[class="black--text font-weight-medium col col-12"]').each((e)=>{
+        cy.log("Device Schedule -> devices:", e.text()+ ", ")
+    }).then((e)=>{
+        cy.log('Verified amout of devices: ' + e.length)
     })
 })
