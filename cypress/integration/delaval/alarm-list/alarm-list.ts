@@ -27,7 +27,7 @@ When('Click on Services & Alerts', ()=>{
     cy.get('.link div').contains('Alerts').click()
 })
 Then('Click on inactive',()=>{
-    cy.get('.v-slide-group__content > :nth-child(3)').click()
+    cy.get('.v-tab').contains('Inactive').click()
 })
 Then('Click on details button',()=>{
      cy.get('span[role="button"]').should('be.visible').contains('Details').first().click()
