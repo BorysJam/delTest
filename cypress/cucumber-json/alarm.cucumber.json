@@ -9,71 +9,860 @@
     "uri": "alarm.feature",
     "elements": [
       {
-        "id": "alarms;a&n----user-should-be-able-to-see-all-the-devices-connected-to-the-farm-for-configuring-the-alarms",
+        "id": "alarms;alarms-should-be-sorted-by-time-stamp-of-alarms",
         "keyword": "Scenario",
-        "line": 102,
-        "name": "A&N -  User should be able to see all the devices connected to the farm for configuring the alarms",
-        "tags": [],
+        "line": 14,
+        "name": "Alarms should be sorted by Time Stamp of alarms",
+        "tags": [
+          {
+            "name": "@timeStampAlarms",
+            "line": 13
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 103,
+            "line": 15,
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 7705000000
+              "duration": 9563000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 104,
+            "line": 16,
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3051000000
+              "duration": 3030000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 105,
+            "line": 17,
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 288000000
+              "duration": 230000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 106,
+            "line": 18,
+            "name": "I click \"Time Stamp\"",
+            "result": {
+              "status": "passed",
+              "duration": 2366000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I click \"Inactive\"",
+            "result": {
+              "status": "passed",
+              "duration": 468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I click \"Time Stamp\"",
+            "result": {
+              "status": "passed",
+              "duration": 622000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarms;alarms-should-be-sorted-by-device-name-of-alarms",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Alarms should be sorted by Device Name of alarms",
+        "tags": [
+          {
+            "name": "@deviceNameAlarms",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 5197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I wait 3000",
+            "result": {
+              "status": "passed",
+              "duration": 3023000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I click \"Go to Service\"",
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I click \"Device Name\"",
+            "result": {
+              "status": "passed",
+              "duration": 1878000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I click \"Inactive\"",
+            "result": {
+              "status": "passed",
+              "duration": 447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I click \"Device Name\"",
+            "result": {
+              "status": "passed",
+              "duration": 543000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarms;alarms-should-be-sorted-by-device-type-of-alarms",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Alarms should be sorted by Device Type of alarms",
+        "tags": [
+          {
+            "name": "@deviceTypeAlarms",
+            "line": 31
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 6921000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "I wait 3000",
+            "result": {
+              "status": "passed",
+              "duration": 3032000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "I click \"Go to Service\"",
+            "result": {
+              "status": "passed",
+              "duration": 339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I click \"Device Type\"",
+            "result": {
+              "status": "passed",
+              "duration": 2520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I click \"Inactive\"",
+            "result": {
+              "status": "passed",
+              "duration": 481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I click \"Device Type\"",
+            "result": {
+              "status": "passed",
+              "duration": 586000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarms;alarms-should-be-sorted-by-alarm-code-of-alarms",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "Alarms should be sorted by Alarm Code of alarms",
+        "tags": [
+          {
+            "name": "@alarmCode",
+            "line": 40
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 5898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "I wait 3000",
+            "result": {
+              "status": "passed",
+              "duration": 3024000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I click \"Go to Service\"",
+            "result": {
+              "status": "passed",
+              "duration": 296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "I click \"Code\"",
+            "result": {
+              "status": "passed",
+              "duration": 1545000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "I click \"Inactive\"",
+            "result": {
+              "status": "passed",
+              "duration": 616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I click \"Code\"",
+            "result": {
+              "status": "passed",
+              "duration": 582000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarms;alarms-should-be-sorted-by-receivers-of-alarms",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Alarms should be sorted by Receivers of alarms",
+        "tags": [
+          {
+            "name": "@receiverOfAlarms",
+            "line": 50
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 6504000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I wait 3000",
+            "result": {
+              "status": "passed",
+              "duration": 3048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "I click \"Go to Service\"",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "I click \"Receiver\"",
+            "result": {
+              "status": "passed",
+              "duration": 1813000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "I click \"Inactive\"",
+            "result": {
+              "status": "passed",
+              "duration": 431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "I click \"Receiver\"",
+            "result": {
+              "status": "passed",
+              "duration": 586000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarms;alarms-is-only-shown-on-dashboard-for-a-farm-that-pays-for-it",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Alarms is only shown on dashboard for a farm that pays for it",
+        "tags": [
+          {
+            "name": "@alarmShownDashboard",
+            "line": 59
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 6728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "I wait 3000",
+            "result": {
+              "status": "passed",
+              "duration": 3038000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "\"Services\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarms;alarm-details-should-be-displayed-in-the-alarm-notification-received-by-the-user",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Alarm details should be displayed in the Alarm Notification received by the user",
+        "tags": [
+          {
+            "name": "@alarmDetailsDisplayed",
+            "line": 65
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 67,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 8093000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "I wait 3000",
+            "result": {
+              "status": "passed",
+              "duration": 3029000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "I click \"Go to Service\"",
+            "result": {
+              "status": "passed",
+              "duration": 285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "\"Type\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 2310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "\"Time Stamp\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "\"Device Name\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 73,
+            "name": "\"Device Type\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "\"Code\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "\"Receiver\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 76,
+            "name": "I check details of alarm",
+            "result": {
+              "status": "passed",
+              "duration": 445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 77,
+            "name": "\"Back\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "\"Inactivate\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "\"Alert Received By\" is visible",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find content: 'Alert Received By:' within the element: <span.f6.font-weight-regular.text--secondary> but never did.\n    at Context.eval (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm.feature:92:40)\n    at Context.resolveAndRunStepDefinition (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm.feature:10554:29)\n    at Context.eval (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm.feature:9875:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "\"Error Code\" is visible",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarms;user-is-be-able-to-route-alarm-dashboard",
+        "keyword": "Scenario",
+        "line": 83,
+        "name": "User is be able to route alarm dashboard",
+        "tags": [
+          {
+            "name": "@userAbleToRoute",
+            "line": 82
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 84,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 6602000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "\"A&N Internal Dev\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "\"Errors\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 1297000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "\"Warnings\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "\" Go to Service \" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 89,
+            "name": "I wait 3000",
+            "result": {
+              "status": "passed",
+              "duration": 3082000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 90,
+            "name": "I click \"Go to Service\"",
+            "result": {
+              "status": "passed",
+              "duration": 442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 91,
+            "name": "\"Active\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 3691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "\"Inactive\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 378000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "user verified alarm dashboard and alarm details",
+            "result": {
+              "status": "passed",
+              "duration": 337000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarms;user-shouldn’t-be-able-to-activate-an-alarm-which-is-in-inactive-state",
+        "keyword": "Scenario",
+        "line": 96,
+        "name": "User shouldn’t be able to activate an alarm which is in Inactive state",
+        "tags": [
+          {
+            "name": "@userInactiveState",
+            "line": 95
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 97,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 8632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 98,
+            "name": "I wait 3000",
+            "result": {
+              "status": "passed",
+              "duration": 3031000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "I click \"Go to Service\"",
+            "result": {
+              "status": "passed",
+              "duration": 403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 100,
+            "name": "\"Active\" is visible",
+            "result": {
+              "status": "passed",
+              "duration": 2697000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 101,
+            "name": "I click \"Inactive\"",
+            "result": {
+              "status": "passed",
+              "duration": 1435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 102,
+            "name": "I went to inactive details",
+            "result": {
+              "status": "passed",
+              "duration": 967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "Activate isnt visible on inactive details",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 104,
+            "name": "I click \"Back\"",
+            "result": {
+              "status": "passed",
+              "duration": 878000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "alarms;a&n----user-should-be-able-to-see-all-the-devices-connected-to-the-farm-for-configuring-the-alarms",
+        "keyword": "Scenario",
+        "line": 107,
+        "name": "A&N -  User should be able to see all the devices connected to the farm for configuring the alarms",
+        "tags": [
+          {
+            "name": "@seeAllDevicesConnected",
+            "line": 106
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 108,
+            "name": "Open page, login & choose farm",
+            "result": {
+              "status": "passed",
+              "duration": 7054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 109,
+            "name": "I wait 3000",
+            "result": {
+              "status": "passed",
+              "duration": 3043000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 110,
+            "name": "I click \"Go to Service\"",
+            "result": {
+              "status": "passed",
+              "duration": 574000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 111,
             "name": "I click \"Settings\"",
             "result": {
               "status": "passed",
-              "duration": 6288000000
+              "duration": 3453000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 107,
+            "line": 112,
             "name": "\"Alert Configuration\" is visible",
             "result": {
               "status": "passed",
-              "duration": 170000000
+              "duration": 213000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 108,
+            "line": 113,
             "name": "Verify all the devices that are connected to the farm are listed in the Device Schedule",
             "result": {
               "status": "passed",
-              "duration": 984000000
+              "duration": 1481000000
             }
           }
         ]

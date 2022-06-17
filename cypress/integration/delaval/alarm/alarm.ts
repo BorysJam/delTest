@@ -88,7 +88,7 @@ Then('"Inactivate" is visible',()=>{
 })
 
 Then('"Alert Received By" is visible',()=>{
-    cy.get('div[class="pa-0 col col-auto"]').contains('Alert Received By:').siblings('div[class="row no-gutters"]').then(e =>{
+    cy.get('.col-4 > .col-auto > .f6').contains('Alert Received By:').siblings('div[class="row no-gutters"]').then(e =>{
         cy.log(e.text())
     })
 })
