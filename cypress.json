@@ -3,13 +3,13 @@
     "env":{
         "email": "an.dev.tester@mailinator.com",
         "url": "http://dev.login.delaval.cloud/",
-        "login": "jamrbo",
         "pw": "Delaval&123"
     },
     "defaultCommandTimeout": 10000,
     "pageLoadTimeout": 10000,
     "viewportWidth": 1000,
-    "viewportHeight": 660
+    "viewportHeight": 660,
+    "video": false
 }
 
 

@@ -28,7 +28,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 9637000000
+              "duration": 13675000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3010000000
+              "duration": 3012000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 323000000
+              "duration": 266000000
             }
           },
           {
@@ -58,7 +58,7 @@
             "name": "I click \"Type\"",
             "result": {
               "status": "passed",
-              "duration": 2990000000
+              "duration": 3874000000
             }
           },
           {
@@ -68,7 +68,7 @@
             "name": "I click \"Inactive\"",
             "result": {
               "status": "passed",
-              "duration": 652000000
+              "duration": 1036000000
             }
           },
           {
@@ -78,7 +78,7 @@
             "name": "I click on Alarm Type",
             "result": {
               "status": "passed",
-              "duration": 862000000
+              "duration": 969000000
             }
           }
         ]
@@ -103,7 +103,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 8319000000
+              "duration": 6436000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3011000000
+              "duration": 3008000000
             }
           },
           {
@@ -123,7 +123,7 @@
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 280000000
+              "duration": 235000000
             }
           },
           {
@@ -133,7 +133,7 @@
             "name": "I click \"Time Stamp\"",
             "result": {
               "status": "passed",
-              "duration": 2351000000
+              "duration": 2910000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "I click \"Inactive\"",
             "result": {
               "status": "passed",
-              "duration": 648000000
+              "duration": 1092000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "I click \"Time Stamp\"",
             "result": {
               "status": "passed",
-              "duration": 490000000
+              "duration": 655000000
             }
           }
         ]
@@ -178,7 +178,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 9483000000
+              "duration": 8736000000
             }
           },
           {
@@ -188,7 +188,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3014000000
+              "duration": 3013000000
             }
           },
           {
@@ -198,7 +198,7 @@
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 262000000
+              "duration": 279000000
             }
           },
           {
@@ -208,7 +208,7 @@
             "name": "I click \"Device Name\"",
             "result": {
               "status": "passed",
-              "duration": 1743000000
+              "duration": 5249000000
             }
           },
           {
@@ -218,7 +218,7 @@
             "name": "I click \"Inactive\"",
             "result": {
               "status": "passed",
-              "duration": 659000000
+              "duration": 618000000
             }
           },
           {
@@ -228,7 +228,7 @@
             "name": "I click \"Device Name\"",
             "result": {
               "status": "passed",
-              "duration": 519000000
+              "duration": 602000000
             }
           }
         ]
@@ -253,7 +253,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 6320000000
+              "duration": 9396000000
             }
           },
           {
@@ -263,7 +263,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3009000000
+              "duration": 3017000000
             }
           },
           {
@@ -273,7 +273,7 @@
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 250000000
+              "duration": 385000000
             }
           },
           {
@@ -283,7 +283,7 @@
             "name": "I click \"Device Type\"",
             "result": {
               "status": "passed",
-              "duration": 2513000000
+              "duration": 2204000000
             }
           },
           {
@@ -293,7 +293,7 @@
             "name": "I click \"Inactive\"",
             "result": {
               "status": "passed",
-              "duration": 432000000
+              "duration": 689000000
             }
           },
           {
@@ -303,7 +303,7 @@
             "name": "I click \"Device Type\"",
             "result": {
               "status": "passed",
-              "duration": 486000000
+              "duration": 721000000
             }
           }
         ]
@@ -328,7 +328,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 6529000000
+              "duration": 10230000000
             }
           },
           {
@@ -338,7 +338,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3006000000
+              "duration": 3013000000
             }
           },
           {
@@ -348,7 +348,7 @@
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 256000000
+              "duration": 372000000
             }
           },
           {
@@ -358,7 +358,7 @@
             "name": "I click \"Code\"",
             "result": {
               "status": "passed",
-              "duration": 1944000000
+              "duration": 2983000000
             }
           },
           {
@@ -368,7 +368,7 @@
             "name": "I click \"Inactive\"",
             "result": {
               "status": "passed",
-              "duration": 462000000
+              "duration": 617000000
             }
           },
           {
@@ -378,7 +378,7 @@
             "name": "I click \"Code\"",
             "result": {
               "status": "passed",
-              "duration": 477000000
+              "duration": 669000000
             }
           }
         ]
@@ -403,7 +403,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 6213000000
+              "duration": 6765000000
             }
           },
           {
@@ -413,7 +413,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3005000000
+              "duration": 3011000000
             }
           },
           {
@@ -423,7 +423,7 @@
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 239000000
+              "duration": 216000000
             }
           },
           {
@@ -433,7 +433,7 @@
             "name": "I click \"Receiver\"",
             "result": {
               "status": "passed",
-              "duration": 2248000000
+              "duration": 2120000000
             }
           },
           {
@@ -443,7 +443,7 @@
             "name": "I click \"Inactive\"",
             "result": {
               "status": "passed",
-              "duration": 436000000
+              "duration": 420000000
             }
           },
           {
@@ -453,7 +453,7 @@
             "name": "I click \"Receiver\"",
             "result": {
               "status": "passed",
-              "duration": 713000000
+              "duration": 766000000
             }
           }
         ]
@@ -478,7 +478,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 6468000000
+              "duration": 7946000000
             }
           },
           {
@@ -488,7 +488,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3007000000
+              "duration": 3027000000
             }
           },
           {
@@ -498,7 +498,7 @@
             "name": "\"Services\" is visible",
             "result": {
               "status": "passed",
-              "duration": 56000000
+              "duration": 120000000
             }
           }
         ]
@@ -523,7 +523,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 5545000000
+              "duration": 7092000000
             }
           },
           {
@@ -533,7 +533,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3015000000
+              "duration": 3014000000
             }
           },
           {
@@ -543,7 +543,7 @@
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 243000000
+              "duration": 223000000
             }
           },
           {
@@ -553,7 +553,7 @@
             "name": "\"Type\" is visible",
             "result": {
               "status": "passed",
-              "duration": 1412000000
+              "duration": 2359000000
             }
           },
           {
@@ -563,7 +563,7 @@
             "name": "\"Time Stamp\" is visible",
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 56000000
             }
           },
           {
@@ -573,7 +573,7 @@
             "name": "\"Device Name\" is visible",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 60000000
             }
           },
           {
@@ -583,7 +583,7 @@
             "name": "\"Device Type\" is visible",
             "result": {
               "status": "passed",
-              "duration": 58000000
+              "duration": 56000000
             }
           },
           {
@@ -593,7 +593,7 @@
             "name": "\"Code\" is visible",
             "result": {
               "status": "passed",
-              "duration": 61000000
+              "duration": 62000000
             }
           },
           {
@@ -603,7 +603,7 @@
             "name": "\"Receiver\" is visible",
             "result": {
               "status": "passed",
-              "duration": 56000000
+              "duration": 53000000
             }
           },
           {
@@ -613,7 +613,7 @@
             "name": "I check details of alarm",
             "result": {
               "status": "passed",
-              "duration": 1362000000
+              "duration": 545000000
             }
           },
           {
@@ -623,7 +623,7 @@
             "name": "\"Back\" is visible",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 130000000
             }
           },
           {
@@ -633,7 +633,7 @@
             "name": "\"Inactivate\" is visible",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 89000000
             }
           },
           {
@@ -642,8 +642,8 @@
             "line": 79,
             "name": "\"Alert Received By\" is visible",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `div[class=\"row no-gutters\"]`, but never found it. Queried from element: <span.f6.font-weight-regular.text--secondary>\n    at Context.eval (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm.feature:92:70)\n    at Context.resolveAndRunStepDefinition (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm.feature:10554:29)\n    at Context.eval (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm.feature:9875:35)"
+              "status": "passed",
+              "duration": 132000000
             }
           },
           {
@@ -652,7 +652,8 @@
             "line": 80,
             "name": "\"Error Code\" is visible",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 75000000
             }
           }
         ]
@@ -677,7 +678,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 6833000000
+              "duration": 7891000000
             }
           },
           {
@@ -687,7 +688,7 @@
             "name": "\"A&N Internal Dev\" is visible",
             "result": {
               "status": "passed",
-              "duration": 107000000
+              "duration": 164000000
             }
           },
           {
@@ -697,7 +698,7 @@
             "name": "\"Errors\" is visible",
             "result": {
               "status": "passed",
-              "duration": 896000000
+              "duration": 776000000
             }
           },
           {
@@ -707,7 +708,7 @@
             "name": "\"Warnings\" is visible",
             "result": {
               "status": "passed",
-              "duration": 171000000
+              "duration": 73000000
             }
           },
           {
@@ -717,7 +718,7 @@
             "name": "\" Go to Service \" is visible",
             "result": {
               "status": "passed",
-              "duration": 159000000
+              "duration": 53000000
             }
           },
           {
@@ -727,7 +728,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3010000000
+              "duration": 3008000000
             }
           },
           {
@@ -737,7 +738,7 @@
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 370000000
+              "duration": 402000000
             }
           },
           {
@@ -747,7 +748,7 @@
             "name": "\"Active\" is visible",
             "result": {
               "status": "passed",
-              "duration": 1302000000
+              "duration": 1531000000
             }
           },
           {
@@ -757,7 +758,7 @@
             "name": "\"Inactive\" is visible",
             "result": {
               "status": "passed",
-              "duration": 145000000
+              "duration": 98000000
             }
           },
           {
@@ -767,7 +768,7 @@
             "name": "user verified alarm dashboard and alarm details",
             "result": {
               "status": "passed",
-              "duration": 159000000
+              "duration": 90000000
             }
           }
         ]
@@ -792,7 +793,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 7422000000
+              "duration": 6984000000
             }
           },
           {
@@ -802,7 +803,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3014000000
+              "duration": 3008000000
             }
           },
           {
@@ -812,7 +813,7 @@
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 322000000
+              "duration": 221000000
             }
           },
           {
@@ -822,7 +823,7 @@
             "name": "\"Active\" is visible",
             "result": {
               "status": "passed",
-              "duration": 2116000000
+              "duration": 3090000000
             }
           },
           {
@@ -832,7 +833,7 @@
             "name": "I click \"Inactive\"",
             "result": {
               "status": "passed",
-              "duration": 545000000
+              "duration": 999000000
             }
           },
           {
@@ -842,7 +843,7 @@
             "name": "I went to inactive details",
             "result": {
               "status": "passed",
-              "duration": 798000000
+              "duration": 935000000
             }
           },
           {
@@ -852,7 +853,7 @@
             "name": "Activate isnt visible on inactive details",
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 57000000
             }
           },
           {
@@ -862,7 +863,7 @@
             "name": "I click \"Back\"",
             "result": {
               "status": "passed",
-              "duration": 547000000
+              "duration": 670000000
             }
           }
         ]
@@ -887,7 +888,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 7124000000
+              "duration": 8061000000
             }
           },
           {
@@ -897,7 +898,7 @@
             "name": "I wait 3000",
             "result": {
               "status": "passed",
-              "duration": 3008000000
+              "duration": 3006000000
             }
           },
           {
@@ -907,7 +908,7 @@
             "name": "I click \"Go to Service\"",
             "result": {
               "status": "passed",
-              "duration": 320000000
+              "duration": 242000000
             }
           },
           {
@@ -917,7 +918,7 @@
             "name": "I click \"Settings\"",
             "result": {
               "status": "passed",
-              "duration": 2690000000
+              "duration": 3097000000
             }
           },
           {
@@ -927,7 +928,7 @@
             "name": "\"Alert Configuration\" is visible",
             "result": {
               "status": "passed",
-              "duration": 114000000
+              "duration": 68000000
             }
           },
           {
@@ -937,7 +938,7 @@
             "name": "Verify all the devices that are connected to the farm are listed in the Device Schedule",
             "result": {
               "status": "passed",
-              "duration": 3325000000
+              "duration": 3574000000
             }
           }
         ]

@@ -28,7 +28,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 9452000000
+              "duration": 11358000000
             }
           },
           {
@@ -38,7 +38,7 @@
             "name": "Check widget",
             "result": {
               "status": "passed",
-              "duration": 1775000000
+              "duration": 1381000000
             }
           },
           {
@@ -48,7 +48,7 @@
             "name": "check for error & warning",
             "result": {
               "status": "passed",
-              "duration": 78000000
+              "duration": 71000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 5626000000
+              "duration": 6854000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "Click on Services & Alerts",
             "result": {
               "status": "passed",
-              "duration": 1387000000
+              "duration": 1673000000
             }
           }
         ]
@@ -108,7 +108,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 5978000000
+              "duration": 9045000000
             }
           },
           {
@@ -118,7 +118,7 @@
             "name": "Click on Services & Alerts",
             "result": {
               "status": "passed",
-              "duration": 1651000000
+              "duration": 1500000000
             }
           },
           {
@@ -128,7 +128,7 @@
             "name": "Click on inactive",
             "result": {
               "status": "passed",
-              "duration": 1910000000
+              "duration": 3343000000
             }
           },
           {
@@ -137,8 +137,8 @@
             "line": 20,
             "name": "Click on details button",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: Timed out retrying after 10050ms: `cy.click()` failed because this element is not visible:\n\n`<span role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" class=\"pointer text-decoration-underline text--primary\">Details</span>`\n\nThis element `<span.pointer.text-decoration-underline.text--primary>` is not visible because its parent `<div.v-window-item>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at runVisibilityCheck (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:168736:76)\n    at $Cy.ensureStrictVisibility (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:168752:12)\n    at runAllChecks (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:154700:14)\n    at retryActionability (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:154755:16)\n    at tryCatcher (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise.attempt.Promise.try (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:10296:29)\n    at whenStable (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:173835:65)\n    at https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:173290:14\n    at tryCatcher (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:11139:18)\n    at Promise._fulfill (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:11083:18)\n    at https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:12697:46\nFrom Your Spec Code:\n    at Context.eval (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm-list.feature:46:84)\n    at Context.resolveAndRunStepDefinition (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm-list.feature:10475:29)\n    at Context.eval (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm-list.feature:9796:35)"
+              "status": "passed",
+              "duration": 935000000
             }
           }
         ]
@@ -163,7 +163,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 5397000000
+              "duration": 6250000000
             }
           },
           {
@@ -173,7 +173,7 @@
             "name": "Open configuration",
             "result": {
               "status": "passed",
-              "duration": 1181000000
+              "duration": 1234000000
             }
           }
         ]
@@ -198,7 +198,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 5594000000
+              "duration": 6965000000
             }
           },
           {
@@ -208,7 +208,7 @@
             "name": "Click on Services & Alerts",
             "result": {
               "status": "passed",
-              "duration": 1386000000
+              "duration": 1718000000
             }
           },
           {
@@ -218,7 +218,7 @@
             "name": "Sort by device",
             "result": {
               "status": "passed",
-              "duration": 1620000000
+              "duration": 3083000000
             }
           }
         ]
@@ -243,7 +243,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 5566000000
+              "duration": 7953000000
             }
           },
           {
@@ -253,7 +253,7 @@
             "name": "Click on Services & Alerts",
             "result": {
               "status": "passed",
-              "duration": 1397000000
+              "duration": 1451000000
             }
           },
           {
@@ -263,7 +263,7 @@
             "name": "Sort by alarm code",
             "result": {
               "status": "passed",
-              "duration": 2386000000
+              "duration": 2222000000
             }
           }
         ]
@@ -288,7 +288,7 @@
             "name": "Open page, login & choose farm",
             "result": {
               "status": "passed",
-              "duration": 5926000000
+              "duration": 5920000000
             }
           },
           {
@@ -298,7 +298,7 @@
             "name": "Click on Services & Alerts",
             "result": {
               "status": "passed",
-              "duration": 1459000000
+              "duration": 2482000000
             }
           },
           {
@@ -308,7 +308,7 @@
             "name": "Click on inactive",
             "result": {
               "status": "passed",
-              "duration": 1271000000
+              "duration": 3378000000
             }
           },
           {
@@ -317,8 +317,8 @@
             "line": 50,
             "name": "Assert details",
             "result": {
-              "status": "failed",
-              "error_message": "CypressError: Timed out retrying after 10050ms: `cy.click()` failed because this element is not visible:\n\n`<span role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\" class=\"pointer text-decoration-underline text--primary\">Details</span>`\n\nThis element `<span.pointer.text-decoration-underline.text--primary>` is not visible because its parent `<div.v-window-item>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at runVisibilityCheck (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:168736:76)\n    at $Cy.ensureStrictVisibility (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:168752:12)\n    at runAllChecks (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:154700:14)\n    at retryActionability (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:154755:16)\n    at tryCatcher (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise.attempt.Promise.try (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:10296:29)\n    at whenStable (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:173835:65)\n    at https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:173290:14\n    at tryCatcher (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:11139:18)\n    at Promise._fulfill (https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:11083:18)\n    at https://dev.login.delaval.cloud/__cypress/runner/cypress_runner.js:12697:46\nFrom Your Spec Code:\n    at Context.eval (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm-list.feature:70:63)\n    at Context.resolveAndRunStepDefinition (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm-list.feature:10475:29)\n    at Context.eval (https://dev.login.delaval.cloud/__cypress/tests?p=cypress\\integration\\delaval\\alarm-list.feature:9796:35)"
+              "status": "passed",
+              "duration": 921000000
             }
           }
         ]

@@ -30,7 +30,7 @@ Then('Click on inactive',()=>{
     cy.get('.v-tab').contains('Inactive').click()
 })
 Then('Click on details button',()=>{
-     cy.get('span[role="button"]').should('be.visible').contains('Details').first().click()
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > tbody > .table-item-row > :nth-child(7) > .row > .pointer').should('be.visible').contains('Details').first().click()
  })
 
 //Configpage
@@ -59,7 +59,7 @@ Then('Sort by alarm code', ()=>{
 
 //assert details 
 Then('Assert details', ()=>{
-    cy.get('span[role="button"]').contains('Details').first().click()
+    cy.get('.v-window-item--active > .v-data-table > .v-data-table__wrapper > table > tbody > .table-item-row > :nth-child(7) > .row > .pointer').contains('Details').first().click()
     cy.get('.f5').should('not.be.empty').and('have.text', 'solstice-skunk-analects')
     cy.get('.pl-0 > :nth-child(1) > .f6').should('not.be.empty').and('have.text', 'AWS_Virtual_Edge_Server')
     cy.get('.v-dialog__content--active > .v-dialog > .pa-10 > .v-card__text > :nth-child(1) > .pl-0 > p.my-2').should('not.be.empty').and('have.text', ' Low vacuum level. Current: 0, limit: 30 solstice-skunk-analects ')
